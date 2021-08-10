@@ -1,7 +1,9 @@
 # pipe_final_deepika
 
 data_ingestion.py --> pulled data from api, transformed it into useable json format, pushed it to hdfs.
+
 dags --> dags and transformation applied to the data
+
 Covid --> output from airflow
 
 Documentation:
