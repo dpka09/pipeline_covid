@@ -1,0 +1,23 @@
+[2021-08-10 19:00:14,529] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: Covid.Covidtask4 2021-08-10T13:14:01.532369+00:00 [queued]>
+[2021-08-10 19:00:14,535] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: Covid.Covidtask4 2021-08-10T13:14:01.532369+00:00 [queued]>
+[2021-08-10 19:00:14,535] {taskinstance.py:1067} INFO - 
+--------------------------------------------------------------------------------
+[2021-08-10 19:00:14,535] {taskinstance.py:1068} INFO - Starting attempt 1 of 8
+[2021-08-10 19:00:14,535] {taskinstance.py:1069} INFO - 
+--------------------------------------------------------------------------------
+[2021-08-10 19:00:14,699] {taskinstance.py:1087} INFO - Executing <Task(PythonOperator): Covidtask4> on 2021-08-10T13:14:01.532369+00:00
+[2021-08-10 19:00:14,701] {standard_task_runner.py:52} INFO - Started process 36126 to run task
+[2021-08-10 19:00:14,704] {standard_task_runner.py:76} INFO - Running: ['airflow', 'tasks', 'run', 'Covid', 'Covidtask4', '2021-08-10T13:14:01.532369+00:00', '--job-id', '360', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/dag.py', '--cfg-path', '/tmp/tmpmw1oyskr', '--error-file', '/tmp/tmpbceaiye2']
+[2021-08-10 19:00:14,705] {standard_task_runner.py:77} INFO - Job 360: Subtask Covidtask4
+[2021-08-10 19:00:15,579] {logging_mixin.py:104} INFO - Running <TaskInstance: Covid.Covidtask4 2021-08-10T13:14:01.532369+00:00 [running]> on host deepika-Inspiron-5570
+[2021-08-10 19:00:15,896] {taskinstance.py:1280} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_EMAIL=sthadpka93@gmail.com
+AIRFLOW_CTX_DAG_OWNER=postgres
+AIRFLOW_CTX_DAG_ID=Covid
+AIRFLOW_CTX_TASK_ID=Covidtask4
+AIRFLOW_CTX_EXECUTION_DATE=2021-08-10T13:14:01.532369+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2021-08-10T13:14:01.532369+00:00
+[2021-08-10 19:00:21,975] {python.py:151} INFO - Done. Returned value was: None
+[2021-08-10 19:00:21,977] {taskinstance.py:1184} INFO - Marking task as SUCCESS. dag_id=Covid, task_id=Covidtask4, execution_date=20210810T131401, start_date=20210810T131514, end_date=20210810T131521
+[2021-08-10 19:00:22,999] {taskinstance.py:1245} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2021-08-10 19:00:23,012] {local_task_job.py:151} INFO - Task exited with return code 0

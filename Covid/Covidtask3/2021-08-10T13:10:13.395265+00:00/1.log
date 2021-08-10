@@ -1,0 +1,2 @@
+[2021-08-10 18:56:19,189] {taskinstance.py:866} INFO - Dependencies not met for <TaskInstance: Covid.Covidtask3 2021-08-10T13:10:13.395265+00:00 [None]>, dependency 'Trigger Rule' FAILED: Task's trigger rule 'all_success' requires all upstream tasks to have succeeded, but found 1 non-success(es). upstream_tasks_state={'total': 1, 'successes': 0, 'skipped': 0, 'failed': 0, 'upstream_failed': 0, 'done': 0}, upstream_task_ids={'Covidtask2'}
+[2021-08-10 18:56:19,190] {local_task_job.py:98} INFO - Task is not able to be run
